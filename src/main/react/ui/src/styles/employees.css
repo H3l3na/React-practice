@@ -1,0 +1,141 @@
+.usersList {
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 70%;
+    margin-right:5%;
+    margin-bottom: 5%;
+}
+
+.usersList.empty {
+    margin-top:10%;
+}
+
+.actionIcon{
+    cursor: pointer;
+}
+
+.search{
+    width:100%;
+    margin:0;
+}
+
+
+.search-card {
+   width: 50%; /* bilo 50% */
+   float: left;
+   height:3rem;
+   margin:1%;
+}
+
+.btn-add {
+    justify-content: flex-end;
+    margin-left: 82%;
+    display: inline-block;
+    width: 200px;
+    background-color: #8BC34A;
+    color:  #fefefe;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    transition: border-radius linear 0.05s, width linear 0.05s;
+}
+
+
+.selected {
+    border: 1px solid rgb(170, 166, 166) 0.4;
+    width: 1.5%;
+    height: 1%;
+    border-radius: 5px;
+    background-color: rgb(235, 232, 232);
+}
+
+.icons {
+  position:relative;
+  display:inline-block;
+}
+
+.iconsContainer {
+    width:99%;
+    text-align: right;
+    margin-top:0;
+    position: fixed;
+    z-index: 2;
+}
+
+.btn-wrapper {
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+
+
+.reset:hover {
+    color:white;
+}
+
+.search-wrapper {
+    width:80%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: right;
+}
+
+.reset {
+    background-color: #222222;
+    height: 3rem;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    color:white;
+  }
+
+
+  
+  .search {
+    width: 30rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    height:5rem;
+}
+
+.search-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.search-input input {
+    font: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.15rem 0.25rem;
+}
+
+.search-input input:focus {
+    outline: none;
+    border-color: #ff2058;
+}
+
+@media (min-width: 768px){
+    .search-input {
+        flex-direction: row;
+    }
+}
+
+

@@ -1,0 +1,17 @@
+   .submit{
+    display: inline-block;
+    width: 100px;
+    background-color: #8BC34A;
+    color:  #fefefe;
+    font-size: 1em;
+    padding: 0.2em;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    transition: border-radius linear 0.05s, width linear 0.05s;
+   }
+
