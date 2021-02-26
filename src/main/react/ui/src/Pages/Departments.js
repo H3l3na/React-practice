@@ -132,11 +132,13 @@ const DepartmentList = ({filter}) => {
     const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
     useEffect(() => {
+        
         if (data.length > 5) {
             setRowsPerPage(5);
         } else {
             setRowsPerPage(data.length);
         }
+    
     }, [data.length]);
 
     const emptyRows = rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
@@ -171,7 +173,7 @@ const DepartmentList = ({filter}) => {
         }
     }, []);
 
-    if (data?.length > 0 && data != null) {
+    if (data !== null) {
         return (
             <div className="departmentsComponent departments">
                 <div className="departmentsList">
